@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 5%;
+    background-color: #EDEDED;
+}
+
+.text{
+    width: 38%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.light, .text p, h3 + p{
+    color: hsl(229, 6%, 66%);
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 30px 0;
+    align-items: center;
+    
+}
+
+.firstColumn,
+.thirdColumn{
+    background: white;
+    padding: 20px;
+    border-radius: 10px 10px 5px 5px;
+    
+}
+
+
+.firstColumn{
+    border-top: 3px solid teal;
+    position: relative;
+    height: 200px;
+    box-shadow: 0 4px 10px 0 rgb(208, 250, 250);
+}
+
+
+.firstColumn .imageBackground{
+    background-image: url("../images/icon-supervisor.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.secondColumn{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.secondColumnOne{
+    border-top: 3px solid red;
+    border-radius: 10px 10px 5px 5px;
+    margin-bottom: 5px;
+    background: white;
+    padding: 20px;
+    position: relative;
+    height: 200px;
+    box-shadow: 0 4px 10px 0 rgb(243, 186, 186);
+}
+
+.secondColumnOne .imageBackground{
+    background-image: url("../images/icon-team-builder.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.secondColumnTwo{
+    border-top: 3px solid rgb(226, 169, 46);
+    border-radius: 10px 10px 5px 5px;
+    margin-top: 5px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    height: 200px;
+    box-shadow: 0 4px 10px 0 rgb(250, 235, 203);
+}
+
+.secondColumnTwo .imageBackground{
+    background-image: url("../images/icon-karma.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.thirdColumn{
+    border-top: 3px solid rgb(77, 77, 240);
+    position: relative;
+    height: 200px;
+    box-shadow: 0 4px 10px 0 rgb(167, 167, 247)
+}
+
+.thirdColumn .imageBackground{
+    background-image: url("../images/icon-calculator.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+

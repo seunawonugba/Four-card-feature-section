@@ -1,0 +1,42 @@
+@media screen and (max-width:700px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #EDEDED;
+    }
+    
+    .text{
+        width: auto;
+    }
+
+    .light, .text p, h3 + p{
+        color: hsl(229, 6%, 66%);
+    }
+
+    .card{
+        display: block
+    }
+
+    .firstColumn{
+        margin-bottom: 10px;
+    }
+
+    .secondColumn{
+        display: block;
+        
+    }
+
+    .secondColumnOne{
+        margin-bottom: 10px;
+    }
+
+    .secondColumnTwo{
+        margin-bottom: 10px;
+    }
+
+
+}
